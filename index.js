@@ -70,7 +70,8 @@ function is31Flavors(array){
       return false;
     }
   }
-  console.log('task 2:', is31flavor(originalFlavors));
+
+  console.log('task 2:', is31Flavors(originalFlavors));
 
 
 
@@ -92,7 +93,7 @@ function addFlavor(array, string){
   return array;
  }
 
- console.log('task 3:', addFlavors(originalFLavors, 'Rainbow Sherbert'));
+ console.log('task 3:', addFlavor(originalFlavors, 'Rainbow Sherbert'));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -107,12 +108,12 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(/array){
+function removeLastFlavor(array){
  array.pop();
  return array;
 }
 
-console.log('task 4:', removeLastFlavor(orininalFlavors));
+console.log('task 4:', removeLastFlavor(originalFlavors));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Write a function that returns a flavor at a given index in the array.
